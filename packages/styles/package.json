@@ -1,0 +1,10 @@
+{
+  "name": "@ajg/styles",
+  "version": "1.0.0",
+  "description": "design system styles",
+  "main": "index.js",
+  "license": "MIT",
+  "devDependencies": {
+    "sass": "^1.83.1"
+  }
+}

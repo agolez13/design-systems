@@ -2,6 +2,7 @@
   "name": "design-systems",
   "version": "1.0.0",
   "main": "index.js",
+  "repository": "git@github-personal:agolez13/design-systems.git",
   "author": "Antonius Golez",
   "license": "MIT",
   "private": true,

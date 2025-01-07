@@ -12,9 +12,8 @@
 		"packages/components/*/bindings/*"
 	],
   "scripts": {
-		"build": "lerna run build",
+		"build": "NODE_NO_WARNINGS=1 lerna run build",
     "test": "lerna run test",
-    "postinstall": "npx simple-git-hooks",
 		"typecheck": "lerna run typecheck",
 		"lint": "lerna run lint",
 		"pkg:upgrade": "npx lerna-update-wizard"

@@ -17,16 +17,3 @@
 	"include": ["src"],
 	"exclude": ["node_modules"]
 }
-// {
-//     "compilerOptions": {
-//       "outDir": "./dist",
-//       "rootDir": "./src",
-//       "target": "ES6",
-//       "module": "CommonJS",
-//       "jsx": "react",
-//       "declaration": true,
-//       "esModuleInterop": true
-//     },
-//     "include": ["src"],
-//     "exclude": ["node_modules"]
-//   }

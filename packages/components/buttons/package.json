@@ -8,10 +8,10 @@
   ],
   "scripts": {
     "build": "tsup-node",
+    "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --config eslint.config.js",
-    "dev": "tsup-node --watch",
-    "test": "jest"
+    "dev": "tsup-node --watch"
   },
   "author": "",
   "license": "ISC",

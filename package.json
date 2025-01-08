@@ -27,7 +27,10 @@
   "lint-staged": {
 		"*.{js,ts,tsx,css,scss,md,mdx,graphql}": [
 			"prettier --write"
-		]
+		],
+    "*.{js,ts,tsx}": [
+      "eslint --fix"
+    ]
 	},
   "simple-git-hooks": {
 		"pre-commit": "npx lint-staged",

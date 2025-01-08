@@ -32,3 +32,9 @@ Running prettier manually
 
 yarn typecheck - entire monorepo
 yarn workspace @your-scope/buttons typecheck - for each component
+
+# Updating dependencies in bulk for monorepo
+
+(Helps in updating dependencies in a monorepo managed by Lerna)
+
+yarn pkg:upgrade

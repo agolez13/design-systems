@@ -29,7 +29,7 @@
   "lint-staged": {
     "*.{js,ts,tsx,css,scss,md,mdx,graphql}": [
       "prettier --write"
-    ]    
+    ]
   },
   "simple-git-hooks": {
     "pre-commit": "npx lint-staged",

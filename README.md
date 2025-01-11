@@ -202,3 +202,16 @@ The process of compiling and bundling styles (e.g., SCSS files) into production-
   ```bash
    import "@your-scope/styles/dist/index.css";
   ```
+
+## **Run Storybook**
+
+**What is it?**
+
+Storybook is a tool for developing and documenting UI components in isolation. It allows you to visually test components, ensuring they work as expected and look great before integrating them into your project.
+
+**Commands:**
+
+- **Start Storybook:**
+  ```bash
+   yarn workspace @your-scope/library storybook
+  ```

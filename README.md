@@ -165,21 +165,40 @@ The process of continuously monitoring the source files of a component for chang
    yarn workspace @your-scope/component-name watch
   ```
 
-## **Project Directory Structure**
+## **Style and Build Styles**
 
-design-systems/
-├── packages/
-│ ├── components/
-│ │ ├── buttons/
-│ │ │ ├── dev/ # Local development setup for the button component
-│ │ │ ├── dist/ # Build output for the button component
-│ │ │ ├── src/ # Source code for the button component
-│ │ │ ├── package.json # Metadata and dependencies for the button component
-│ │ │ ├── tsconfig.json # TypeScript configuration for the button component
-│ │ │ ├── jest.config.js # Jest configuration for testing the button component
-│ │ │ ├── eslint.config.js # ESLint configuration for the button component
-│ │ └── ...
-├── lerna.json # Lerna configuration for managing the monorepo
-├── package.json # Metadata and scripts for the entire monorepo
-├── yarn.lock # Dependency lock file for the monorepo
-└── README.md # Documentation for the project
+**What is it?**
+
+The process of compiling and bundling styles (e.g., SCSS files) into production-ready CSS files. This ensures that components in your design system have consistent and reusable styles available for use.
+
+**Commands:**
+
+- **Build from root:**
+
+  ```bash
+   yarn build
+  ```
+
+- **Build Styles Once:**
+
+  ```bash
+   yarn workspace @your-scope/styles build
+  ```
+
+- **Watch and Build Styles:**
+
+  Continuously monitor SCSS files for changes and automatically rebuild them into CSS. This is particularly useful during development to ensure up-to-date styling for components.
+
+  ```bash
+   yarn workspace @your-scope/styles watch
+  ```
+
+- **Using in other projects:**
+  Include in dependency
+  ```bash
+  "@your-scope/styles": "",
+  ```
+  Import the css
+  ```bash
+   import "@your-scope/styles/dist/index.css";
+  ```

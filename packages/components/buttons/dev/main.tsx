@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom/client"; // Use ReactDOM from "react-dom/client" in React 18+
 import { ButtonComponent } from "../src/button"; // Import your Button component
+import "@ajg/styles/dist/index.css";
 
 const App = () => {
   return (

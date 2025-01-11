@@ -11,7 +11,8 @@
     "test": "jest",
     "typecheck": "tsc --noEmit",
     "lint": "eslint . --config eslint.config.js",
-    "dev": "tsup-node --watch"
+	"dev": "yarn --cwd dev dev",
+    "watch": "tsup-node --watch"
   },
   "author": "",
   "license": "ISC",
